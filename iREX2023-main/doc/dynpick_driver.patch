@@ -1,0 +1,12 @@
+diff --git a/src/kbhit.c b/src/kbhit.c
+index c52bd40..a624880 100644
+--- a/src/kbhit.c
++++ b/src/kbhit.c
+@@ -36,6 +36,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307, USA.
+ //#include <term.h>
+ //#include <curses.h>
+ //#include <unisted.h>
++#include <unistd.h>
+ 
+ static struct termios initial_settings, new_settings;
+ static int peek_character = -1;

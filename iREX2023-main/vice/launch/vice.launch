@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="vice" type="vice_node" name="vice_control" output="screen">
+    <rosparam param="slave_units">[ "192.168.4.172", "192.168.4.173" ]</rosparam>
+  </node>
+</launch>
+
